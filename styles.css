@@ -1,0 +1,68 @@
+#background {
+    -webkit-transition: background-color 1s linear 0s;
+    -moz-transition: background-color 1s linear 0s;
+    transition: background-color 1s linear 0s;
+}
+
+#box {
+    background-color: white;
+    -webkit-transition: color 1s linear 0s;
+    -moz-transition: color 1s linear 0s;
+    transition: color 1s linear 0s;
+    width: 450px;
+    padding: 40px;
+    margin: 60px auto;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+#quote-content-section {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.75em;
+    font-weight: 500;
+    opacity: 0;
+    
+}
+
+#quote-source {
+    padding-top: 20px;
+    text-align: right;
+    width: 450px;
+}
+
+#buttons {
+    margin-top: 30px;
+    position: relative;
+}
+
+#buttons button {
+    height: 38px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    font-size: 0.85em;
+    cursor: pointer;
+    color: white;
+    -webkit-transition: background-color 1s linear 0s;
+    -moz-transition: background-color 1s linear 0s;
+    transition: background-color 1s linear 0s;
+}
+
+#buttons i {
+    font-size: 1.44em;
+}
+
+#btn-quote{
+    position: absolute;
+    right: 0px;
+    padding: 8px 18px 6px 18px;
+}
+
+#btn-twitter, #btn-tumblr {
+    width: 38px;
+}
+
+#author {
+    color: white;
+    text-align: center;
+}
